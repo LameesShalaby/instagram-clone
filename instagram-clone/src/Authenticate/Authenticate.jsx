@@ -1,7 +1,7 @@
 import { useState } from "react";
 import "./Authenticate.css";
 import Login from "./Login";
-import Signup from "./SignUp";
+import SignUp from "./SignUp";
 
 function Authenticate() {
   const [active, setActive] = useState("login");
@@ -19,7 +19,7 @@ function Authenticate() {
         />
       </div>
       <div className="auth-right">
-        {active === "login" ? <Login /> : <Signup />}
+        {active === "login" ? <Login /> : <SignUp />}
 
         <div className="auth-more">
           <span>

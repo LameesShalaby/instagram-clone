@@ -4,19 +4,19 @@
     flex-direction: column;
     justify-content: space-between;
     z-index: 1;
-}
-
-.sidenav-logo {
+  }
+  
+  .sidenav-logo {
     width: 120px;
     margin: 25px;
-}
-
-.sidenav-buttons {
+  }
+  
+  .sidenav-buttons {
     display: flex;
     flex-direction: column;
-}
-
-.sidenav-button {
+  }
+  
+  .sidenav-button {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -27,20 +27,35 @@
     padding: 10px 15px 10px 15px;
     border-radius: 15px;
     width: 100%;
-}
-
-.sidenav-button:hover {
+  }
+  
+  .sidenav-button:hover {
     cursor: pointer;
     background-color: rgba(255, 255, 255, 0.128);
-}
-
-.sidenav-button>span {
+  }
+  
+  .sidenav-button > span {
     font-size: 18px;
     font-weight: bolder;
     margin-left: 10px;
-}
-
-.sidenav-more {
+  }
+  
+  .sidenav-more {
     position: fixed;
     bottom: 3px;
-}
+  }
+  
+  .logout-button {
+    font-size: 15px;
+    border-radius: 10px;
+    font-weight: bold;
+    color: white;
+    background-color: rgba(255, 255, 255, 0.211);
+    border: 0;
+    padding: 10px;
+  }
+  
+  .logout-button:hover {
+    cursor: pointer;
+    background-color: rgba(255, 255, 255, 0.424);
+  }

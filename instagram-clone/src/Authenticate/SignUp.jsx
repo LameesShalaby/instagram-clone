@@ -7,7 +7,7 @@ import {
 } from "firebase/auth";
 import { auth } from "../firebase";
 
-function Signup() {
+function SignUp() {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
   const [username, setUsername] = useState("");
@@ -55,4 +55,4 @@ function Signup() {
   );
 }
 
-export default Signup;
+export default SignUp;
